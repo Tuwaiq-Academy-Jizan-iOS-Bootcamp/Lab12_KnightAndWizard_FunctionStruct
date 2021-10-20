@@ -1,0 +1,1 @@
+# Lab12_KnightAndWizard_FunctionStruct
