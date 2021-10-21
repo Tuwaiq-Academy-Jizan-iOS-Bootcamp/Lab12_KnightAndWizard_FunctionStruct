@@ -27,8 +27,8 @@ A Hero got a name, a characteristic, a level and life point.
 **Elvin got 3 special skills - Life point 140**
 
 1. Heal (Elvin recovered 15 life point)
-2. Fire Ball (Elvin uses the powerful fire spell learned centuries ago)
-3. Stick of the wise (Elvin uses his magical and strange stick to beat his opponent)
+2. Fire Ball (Elvin uses the powerful fire spell learned centuries ago - 20 Damage)
+3. Stick of the wise (Elvin uses his magical and strange stick to beat his opponent - 15 Damage)
 
 You need to create a class for Lazarus and Elvin with their speciality. 
 
