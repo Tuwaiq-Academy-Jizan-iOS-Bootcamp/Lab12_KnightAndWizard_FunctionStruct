@@ -1,5 +1,7 @@
 # Lab12 KnightAndWizard FunctionStruct
 
+Note : When you create your project name it like this --> YourFirstNameYourLastName_NameOfTheLab
+
 ## Topic
 
 This is a final beautiful fight between the most powerfull Knight Lazarus and the new Wizard master Elvin. 
