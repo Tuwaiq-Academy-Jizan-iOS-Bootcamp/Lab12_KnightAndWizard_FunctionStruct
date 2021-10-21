@@ -1,4 +1,4 @@
-# Lab12 KnightAndWizard FunctionStruct
+# Lab12 KnightAndWizard ClassStruct
 
 Note : When you create your project name it like this --> YourFirstNameYourLastName_NameOfTheLab
 
