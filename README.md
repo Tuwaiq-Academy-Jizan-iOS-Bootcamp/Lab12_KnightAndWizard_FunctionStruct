@@ -67,7 +67,7 @@ You must apply the different actions
 
 Descrition for a turn :
 
-* 	RollDice
+* 	RollDice (touch you button in your App)
 * 	Excute actions 
 * 	See if we got a winner
 * 	Do it until you have a winner
