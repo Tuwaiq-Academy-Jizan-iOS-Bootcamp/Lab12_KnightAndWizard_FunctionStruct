@@ -21,14 +21,14 @@ A Hero got a name, a characteristic, a level and life point.
 **Lazarus got 3 special skills  - Life point : 160**
 
 1. Heal (Lazarus recovered 10 life point)
-2. Sword Attack (Lazarus uses his powerfull sword to his opponent - 10 Damage)
-3. Mega Fist (Lazarus uses his Fist to beat his opponent - 30 Damage)
+2. Sword Attack (Lazarus uses his powerfull sword to his opponent - 10 Damage) --> The Weapon
+3. Mega Fist (Lazarus uses his Fist to beat his opponent - 30 Damage) --> The Power 
 
 **Elvin got 3 special skills - Life point 140**
 
 1. Heal (Elvin recovered 15 life point)
-2. Fire Ball (Elvin uses the powerful fire spell learned centuries ago - 20 Damage)
-3. Stick of the wise (Elvin uses his magical and strange stick to beat his opponent - 15 Damage)
+2. Fire Ball (Elvin uses the powerful fire spell learned centuries ago - 20 Damage) --> The Power
+3. Stick of the wise (Elvin uses his magical and strange stick to beat his opponent - 15 Damage) --> The Weapon 
 
 You need to create a class for Lazarus and Elvin with their speciality. 
 
