@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF8F830B27231F3400545133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F830A27231F3400545133 /* AppDelegate.swift */; };
+		AF8F830D27231F3400545133 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F830C27231F3400545133 /* SceneDelegate.swift */; };
+		AF8F830F27231F3400545133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F830E27231F3400545133 /* ViewController.swift */; };
+		AF8F831227231F3400545133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8F831027231F3400545133 /* Main.storyboard */; };
+		AF8F831427231F3500545133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8F831327231F3500545133 /* Assets.xcassets */; };
+		AF8F831727231F3600545133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8F831527231F3600545133 /* LaunchScreen.storyboard */; };
+		AF8F832227231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F832127231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructTests.swift */; };
+		AF8F832C27231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F832B27231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructUITests.swift */; };
+		AF8F832E27231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F832D27231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF8F831E27231F3600545133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF8F82FF27231F3400545133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8F830627231F3400545133;
+			remoteInfo = "ArwaAlattas_lLab12 KnightAndWizard ClassStruct";
+		};
+		AF8F832827231F3600545133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF8F82FF27231F3400545133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8F830627231F3400545133;
+			remoteInfo = "ArwaAlattas_lLab12 KnightAndWizard ClassStruct";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF8F830727231F3400545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStruct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArwaAlattas_lLab12 KnightAndWizard ClassStruct.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8F830A27231F3400545133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF8F830C27231F3400545133 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF8F830E27231F3400545133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF8F831127231F3400545133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF8F831327231F3500545133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF8F831627231F3600545133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF8F831827231F3600545133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8F831D27231F3600545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStructTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ArwaAlattas_lLab12 KnightAndWizard ClassStructTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8F832127231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_lLab12_KnightAndWizard_ClassStructTests.swift; sourceTree = "<group>"; };
+		AF8F832727231F3600545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStructUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ArwaAlattas_lLab12 KnightAndWizard ClassStructUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8F832B27231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_lLab12_KnightAndWizard_ClassStructUITests.swift; sourceTree = "<group>"; };
+		AF8F832D27231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_lLab12_KnightAndWizard_ClassStructUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF8F830427231F3400545133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8F831A27231F3600545133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8F832427231F3600545133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF8F82FE27231F3400545133 = {
+			isa = PBXGroup;
+			children = (
+				AF8F830927231F3400545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStruct */,
+				AF8F832027231F3600545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStructTests */,
+				AF8F832A27231F3600545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStructUITests */,
+				AF8F830827231F3400545133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF8F830827231F3400545133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF8F830727231F3400545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStruct.app */,
+				AF8F831D27231F3600545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStructTests.xctest */,
+				AF8F832727231F3600545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStructUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF8F830927231F3400545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStruct */ = {
+			isa = PBXGroup;
+			children = (
+				AF8F830A27231F3400545133 /* AppDelegate.swift */,
+				AF8F830C27231F3400545133 /* SceneDelegate.swift */,
+				AF8F830E27231F3400545133 /* ViewController.swift */,
+				AF8F831027231F3400545133 /* Main.storyboard */,
+				AF8F831327231F3500545133 /* Assets.xcassets */,
+				AF8F831527231F3600545133 /* LaunchScreen.storyboard */,
+				AF8F831827231F3600545133 /* Info.plist */,
+			);
+			path = "ArwaAlattas_lLab12 KnightAndWizard ClassStruct";
+			sourceTree = "<group>";
+		};
+		AF8F832027231F3600545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStructTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF8F832127231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructTests.swift */,
+			);
+			path = "ArwaAlattas_lLab12 KnightAndWizard ClassStructTests";
+			sourceTree = "<group>";
+		};
+		AF8F832A27231F3600545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStructUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF8F832B27231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructUITests.swift */,
+				AF8F832D27231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructUITestsLaunchTests.swift */,
+			);
+			path = "ArwaAlattas_lLab12 KnightAndWizard ClassStructUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF8F830627231F3400545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStruct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8F833127231F3600545133 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lLab12 KnightAndWizard ClassStruct" */;
+			buildPhases = (
+				AF8F830327231F3400545133 /* Sources */,
+				AF8F830427231F3400545133 /* Frameworks */,
+				AF8F830527231F3400545133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ArwaAlattas_lLab12 KnightAndWizard ClassStruct";
+			productName = "ArwaAlattas_lLab12 KnightAndWizard ClassStruct";
+			productReference = AF8F830727231F3400545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStruct.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF8F831C27231F3600545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStructTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8F833427231F3600545133 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lLab12 KnightAndWizard ClassStructTests" */;
+			buildPhases = (
+				AF8F831927231F3600545133 /* Sources */,
+				AF8F831A27231F3600545133 /* Frameworks */,
+				AF8F831B27231F3600545133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF8F831F27231F3600545133 /* PBXTargetDependency */,
+			);
+			name = "ArwaAlattas_lLab12 KnightAndWizard ClassStructTests";
+			productName = "ArwaAlattas_lLab12 KnightAndWizard ClassStructTests";
+			productReference = AF8F831D27231F3600545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStructTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF8F832627231F3600545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStructUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8F833727231F3600545133 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lLab12 KnightAndWizard ClassStructUITests" */;
+			buildPhases = (
+				AF8F832327231F3600545133 /* Sources */,
+				AF8F832427231F3600545133 /* Frameworks */,
+				AF8F832527231F3600545133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF8F832927231F3600545133 /* PBXTargetDependency */,
+			);
+			name = "ArwaAlattas_lLab12 KnightAndWizard ClassStructUITests";
+			productName = "ArwaAlattas_lLab12 KnightAndWizard ClassStructUITests";
+			productReference = AF8F832727231F3600545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStructUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF8F82FF27231F3400545133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AF8F830627231F3400545133 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AF8F831C27231F3600545133 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AF8F830627231F3400545133;
+					};
+					AF8F832627231F3600545133 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AF8F830627231F3400545133;
+					};
+				};
+			};
+			buildConfigurationList = AF8F830227231F3400545133 /* Build configuration list for PBXProject "ArwaAlattas_lLab12 KnightAndWizard ClassStruct" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF8F82FE27231F3400545133;
+			productRefGroup = AF8F830827231F3400545133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF8F830627231F3400545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStruct */,
+				AF8F831C27231F3600545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStructTests */,
+				AF8F832627231F3600545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStructUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF8F830527231F3400545133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8F831727231F3600545133 /* LaunchScreen.storyboard in Resources */,
+				AF8F831427231F3500545133 /* Assets.xcassets in Resources */,
+				AF8F831227231F3400545133 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8F831B27231F3600545133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8F832527231F3600545133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF8F830327231F3400545133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8F830F27231F3400545133 /* ViewController.swift in Sources */,
+				AF8F830B27231F3400545133 /* AppDelegate.swift in Sources */,
+				AF8F830D27231F3400545133 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8F831927231F3600545133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8F832227231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8F832327231F3600545133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8F832E27231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructUITestsLaunchTests.swift in Sources */,
+				AF8F832C27231F3600545133 /* ArwaAlattas_lLab12_KnightAndWizard_ClassStructUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF8F831F27231F3600545133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF8F830627231F3400545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStruct */;
+			targetProxy = AF8F831E27231F3600545133 /* PBXContainerItemProxy */;
+		};
+		AF8F832927231F3600545133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF8F830627231F3400545133 /* ArwaAlattas_lLab12 KnightAndWizard ClassStruct */;
+			targetProxy = AF8F832827231F3600545133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF8F831027231F3400545133 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF8F831127231F3400545133 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF8F831527231F3600545133 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF8F831627231F3600545133 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF8F832F27231F3600545133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF8F833027231F3600545133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF8F833227231F3600545133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ArwaAlattas_lLab12 KnightAndWizard ClassStruct/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lLab12-KnightAndWizard-ClassStruct";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF8F833327231F3600545133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ArwaAlattas_lLab12 KnightAndWizard ClassStruct/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lLab12-KnightAndWizard-ClassStruct";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF8F833527231F3600545133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lLab12-KnightAndWizard-ClassStructTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArwaAlattas_lLab12 KnightAndWizard ClassStruct.app/ArwaAlattas_lLab12 KnightAndWizard ClassStruct";
+			};
+			name = Debug;
+		};
+		AF8F833627231F3600545133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lLab12-KnightAndWizard-ClassStructTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArwaAlattas_lLab12 KnightAndWizard ClassStruct.app/ArwaAlattas_lLab12 KnightAndWizard ClassStruct";
+			};
+			name = Release;
+		};
+		AF8F833827231F3600545133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lLab12-KnightAndWizard-ClassStructUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ArwaAlattas_lLab12 KnightAndWizard ClassStruct";
+			};
+			name = Debug;
+		};
+		AF8F833927231F3600545133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lLab12-KnightAndWizard-ClassStructUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ArwaAlattas_lLab12 KnightAndWizard ClassStruct";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF8F830227231F3400545133 /* Build configuration list for PBXProject "ArwaAlattas_lLab12 KnightAndWizard ClassStruct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8F832F27231F3600545133 /* Debug */,
+				AF8F833027231F3600545133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8F833127231F3600545133 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lLab12 KnightAndWizard ClassStruct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8F833227231F3600545133 /* Debug */,
+				AF8F833327231F3600545133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8F833427231F3600545133 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lLab12 KnightAndWizard ClassStructTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8F833527231F3600545133 /* Debug */,
+				AF8F833627231F3600545133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8F833727231F3600545133 /* Build configuration list for PBXNativeTarget "ArwaAlattas_lLab12 KnightAndWizard ClassStructUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8F833827231F3600545133 /* Debug */,
+				AF8F833927231F3600545133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF8F82FF27231F3400545133 /* Project object */;
+}
