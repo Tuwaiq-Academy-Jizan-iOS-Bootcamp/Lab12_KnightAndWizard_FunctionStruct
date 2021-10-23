@@ -24,7 +24,7 @@ class Lazarus: Hero{
         self.swordAttack = swordAttack
         self.megaFist = megaFist
         self.heal = heal
-        super.init(name: name, level: level, characteristic: characteristic, lifePoints: lifePoints)
+        super .init(name: name, level: level, characteristic: characteristic, lifePoints: lifePoints)
     }
     func Heal() {
         print("Lazarus use his healing skill and Recover +10 Life Points")
@@ -90,28 +90,34 @@ class ViewController: UIViewController {
         while lazarus.lifePoints > dead && evlin.lifePoints > dead {
             let randomEnconter =  Int.random(in: 1...6)
             if randomEnconter == 1 {
+                print("The Dice Rull is \(randomEnconter)")
                 lazarus.Heal()
                 lazarus.lifePoints += lazarus.heal
                 print("Lazarus have \(lazarus.lifePoints) Life Points")
             }else if randomEnconter == 2 {
+                print("The Dice Rull is \(randomEnconter)")
                 lazarusWeapon.swordAvtion()
                 evlin.lifePoints += lazarusWeapon.damage
                 print("Elvin have \(evlin.lifePoints) Life Points remain")
             }else if randomEnconter == 3 {
+                print("The Dice Rull is \(randomEnconter)")
                 lazarusPower.fistAction()
-                evlin.lifePoints += lazarusWeapon.damage
+                evlin.lifePoints += lazarusPower.damage
                 lazarus.lifePoints += lazarusPower.specialEffect
                 print("Elvin have \(evlin.lifePoints) Life Points remain")
                 print("Lazarus have \(lazarus.lifePoints) Life Points")
             }else if randomEnconter == 4 {
+                print("The Dice Rull is \(randomEnconter)")
                 evlin.Heal()
                 evlin.lifePoints += evlin.heal
                 print("Elvin have \(evlin.lifePoints) Life Points")
             }else if randomEnconter == 5 {
+                print("The Dice Rull is \(randomEnconter)")
                 evlinPower.fireBallAction()
                 lazarus.lifePoints -= 30
                 print("Lazarus have \(lazarus.lifePoints) Life Points remain")
             }else {
+                print("The Dice Rull is \(randomEnconter)")
                 evlinWeapon.stickAction()
                 lazarus.lifePoints += evlinWeapon.damage
                 print("Lazarus have \(lazarus.lifePoints) Life Points remain")
