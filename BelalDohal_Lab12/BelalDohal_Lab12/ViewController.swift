@@ -53,10 +53,10 @@ struct Weapon{
     var damage:Int
     var attackAction:String
     func swordAvtion(){
-        print("Lazarus uses his powerfull sword to his opponent -10 Damage")
+        print("Lazarus use his powerfull sword to do -10 Damage to his opponent")
     }
     func stickAction(){
-        print("Elvin uses his magical and strange stick to beat his opponent -15 Damage")
+        print("Elvin use his magical and strange stick to do -15 Damage to his opponent")
     }
 }
               //==========\\
@@ -67,10 +67,10 @@ struct Power{
     var attackAction:String
     var specialEffect:Int
     func fistAction() {
-        print("Lazarus uses his Fist to beat his opponent -30 Damage and get +2 Life Points")
+        print("Lazarus use his Mighty Fist on his opponent and do -30 Damage and get +2 Life Points")
     }
     func fireBallAction(){
-        print("Elvin uses the powerful fire spell learned centuries ago -20 Damage and empower his attack by 10")
+        print("Elvin empower his attack by 10 and use his powerful Fire Spell learned centuries ago to do -30 Damage to his opponent")
     }
 }
                //=======\\
@@ -82,50 +82,55 @@ class ViewController: UIViewController {
     var evlinWeapon = Weapon.init(name: "Stick Of The Wise", damage: -15, attackAction: "Elvin uses his magical and strange stick to beat his opponent -15 Damage")
     var lazarusPower = Power.init(name: "Mega Fist", damage: -30, attackAction: "Lazarus uses his Fist to beat his opponent -30 Damage", specialEffect: 2)
     var evlinPower = Power.init(name: "Fire Ball", damage: -20, attackAction: "Elvin uses the powerful fire spell learned centuries ago -20 Damage", specialEffect: 10)
+    var turnNumber = 0
     var dead = 0
              //===========\\
             //The Main Game\\
     override func viewDidLoad() {
         super.viewDidLoad()
         while lazarus.lifePoints > dead && evlin.lifePoints > dead {
+            turnNumber += 1
             let randomEnconter =  Int.random(in: 1...6)
+            print("*=========* Turn Number //\(turnNumber)// *=========*")
             if randomEnconter == 1 {
-                print("The Dice Rull is \(randomEnconter)")
+                print("The Dice Rull is: \(randomEnconter)")
                 lazarus.Heal()
                 lazarus.lifePoints += lazarus.heal
-                print("Lazarus have \(lazarus.lifePoints) Life Points")
+                print("\(lazarus.name) Life Points: \(lazarus.lifePoints)")
             }else if randomEnconter == 2 {
-                print("The Dice Rull is \(randomEnconter)")
+                print("The Dice Rull is: \(randomEnconter)")
                 lazarusWeapon.swordAvtion()
                 evlin.lifePoints += lazarusWeapon.damage
-                print("Elvin have \(evlin.lifePoints) Life Points remain")
+                print("\(evlin.name) Life Points: \(evlin.lifePoints)")
             }else if randomEnconter == 3 {
-                print("The Dice Rull is \(randomEnconter)")
+                print("The Dice Rull is: \(randomEnconter)")
                 lazarusPower.fistAction()
                 evlin.lifePoints += lazarusPower.damage
                 lazarus.lifePoints += lazarusPower.specialEffect
-                print("Elvin have \(evlin.lifePoints) Life Points remain")
-                print("Lazarus have \(lazarus.lifePoints) Life Points")
+                print("\(evlin.name) Life Points: \(evlin.lifePoints)")
+                print("\(lazarus.name) Life Points: \(lazarus.lifePoints)")
             }else if randomEnconter == 4 {
-                print("The Dice Rull is \(randomEnconter)")
+                print("The Dice Rull is: \(randomEnconter)")
                 evlin.Heal()
                 evlin.lifePoints += evlin.heal
-                print("Elvin have \(evlin.lifePoints) Life Points")
+                print("\(evlin.name) Life Points: \(evlin.lifePoints)")
             }else if randomEnconter == 5 {
-                print("The Dice Rull is \(randomEnconter)")
+                print("The Dice Rull is: \(randomEnconter)")
                 evlinPower.fireBallAction()
                 lazarus.lifePoints -= 30
-                print("Lazarus have \(lazarus.lifePoints) Life Points remain")
+                print("\(lazarus.name) Life Points: \(lazarus.lifePoints)")
             }else {
-                print("The Dice Rull is \(randomEnconter)")
+                print("The Dice Rull is: \(randomEnconter)")
                 evlinWeapon.stickAction()
                 lazarus.lifePoints += evlinWeapon.damage
-                print("Lazarus have \(lazarus.lifePoints) Life Points remain")
+                print("\(lazarus.name) Life Points: \(lazarus.lifePoints)")
             }
             if evlin.lifePoints <= dead {
-                print("\(lazarus.name) is a WINNER !!!")
+                print("************\\ THE WINNER IS.. //*************")
+                print("\(lazarus.name) is the WINNER !!!")
             }else if lazarus.lifePoints <= dead {
-                print("\(evlin.name) is a WINNER !!!")
+                print("************\\ THE WINNER IS.. //*************")
+                print("\(evlin.name) is the WINNER !!!")
             }
         }
         print("END OF THE GAME")
