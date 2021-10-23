@@ -8,15 +8,15 @@
 import UIKit
 class Hero{
     var name: String
-var level:Int
-var life_point:Int
+    var level:Int
+    var life_point:Int
     //var characteristic = {
     struct Weapon{
         var name: String
         var damage: Int
         func attackAction() {
           
-            //print("use Weapon: \(name) damage: \(damage)")
+            print("use Weapon: \(name) damage: \(damage)")
         }
     }
     struct Power{
@@ -37,9 +37,9 @@ var life_point:Int
         self.life_point=life_point
     }
     
-    func printInfo(){
+   /* func printInfo(){
         print("name: \(name),level:\(level),life_point:\(life_point)")
-    }
+    }*/
 
     
 }
@@ -104,7 +104,9 @@ class ViewController: UIViewController {
             lazarus.weaponForLazarus.attackAction()
             lazarus.level += 1
             
-            print("Lif point (elvin) : \(elvin.life_point) ,Level (Lazarus): \(lazarus.level)")
+            
+            print("Lif point (Elvin) : \(elvin.life_point)")
+            print("Lif point (Lazarus): \(lazarus.life_point) ,Level (Lazarus): \(lazarus.level)")
             
         case 3 : print("3 - Lazarus use Mega Fist: ")
             elvin.life_point += lazarus.powerForLazarus.damage
@@ -113,15 +115,14 @@ class ViewController: UIViewController {
             lazarus.level += 1
             
             print("Lif point (Elvin): \(elvin.life_point)")
-            print("Heal Lazarus: \(lazarus.heal) ,Level (Lazarus): \(lazarus.level)")
+            print("Heal (Lazarus): \(lazarus.heal) ,Level (Lazarus): \(lazarus.level)")
             
         case 4 :
-            print("4 - Elvin use Heal: ")
+            print("4 - Elvin use Heal, Heal is: \(elvin.heal) ")
             elvin.life_point += elvin.heal
             elvin.heal -= elvin.heal
             
-            print("Lif point (Elvin): \(elvin.life_point)")
-            print("Heal: \(elvin.heal),Level (Elvin): \(elvin.level)")
+            print("Lif point (Elvin): \(elvin.life_point) ,Level (Elvin): \(elvin.level)")
         case 5 :
             print("5 - Elvin use Fire Ball: ")
             lazarus.life_point += elvin.powerForElvin.damage
@@ -129,16 +130,17 @@ class ViewController: UIViewController {
             elvin.heal += elvin.powerForElvin.SpecialEffect
             elvin.level += 1
             
-            print("Lif point lazarus: \(lazarus.life_point)")
-            print("Heal Elvin: \(elvin.heal) ,Level (Elvin): \(elvin.level)")
+            print("Lif point (Lazarus): \(lazarus.life_point)")
+            print("Heal (Elvin): \(elvin.heal) ,Level (Elvin): \(elvin.level)")
             
         case 6 :
             print("6 - Elvin use Stick of Wise: ")
             lazarus.life_point += elvin.weaponForElvin.damage
             elvin.weaponForElvin.attackAction()
             elvin.level += 1
-               
-            print("Lif point lazarus: \(lazarus.life_point) ,Level (Elvin):\(elvin.level)")
+            
+            print("Lif point (Lazarus): \(lazarus.life_point)")
+            print("Lif point (Elvin): \(elvin.life_point) ,Level (Elvin):\(elvin.level)")
            
        default:
             print("notheng")
