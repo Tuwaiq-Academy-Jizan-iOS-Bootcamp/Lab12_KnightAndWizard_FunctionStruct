@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4533D97A2725302100EE92E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4533D9792725302100EE92E8 /* AppDelegate.swift */; };
+		4533D97C2725302100EE92E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4533D97B2725302100EE92E8 /* SceneDelegate.swift */; };
+		4533D97E2725302100EE92E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4533D97D2725302100EE92E8 /* ViewController.swift */; };
+		4533D9812725302100EE92E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4533D97F2725302100EE92E8 /* Main.storyboard */; };
+		4533D9832725302200EE92E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4533D9822725302200EE92E8 /* Assets.xcassets */; };
+		4533D9862725302200EE92E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4533D9842725302200EE92E8 /* LaunchScreen.storyboard */; };
+		4533D9912725302200EE92E8 /* knight___lazaursTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4533D9902725302200EE92E8 /* knight___lazaursTests.swift */; };
+		4533D99B2725302200EE92E8 /* knight___lazaursUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4533D99A2725302200EE92E8 /* knight___lazaursUITests.swift */; };
+		4533D99D2725302200EE92E8 /* knight___lazaursUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4533D99C2725302200EE92E8 /* knight___lazaursUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4533D98D2725302200EE92E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4533D96E2725302100EE92E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4533D9752725302100EE92E8;
+			remoteInfo = "knight & lazaurs";
+		};
+		4533D9972725302200EE92E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4533D96E2725302100EE92E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4533D9752725302100EE92E8;
+			remoteInfo = "knight & lazaurs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4533D9762725302100EE92E8 /* knight & lazaurs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "knight & lazaurs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4533D9792725302100EE92E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4533D97B2725302100EE92E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4533D97D2725302100EE92E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4533D9802725302100EE92E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4533D9822725302200EE92E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4533D9852725302200EE92E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4533D9872725302200EE92E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4533D98C2725302200EE92E8 /* knight & lazaursTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "knight & lazaursTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4533D9902725302200EE92E8 /* knight___lazaursTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "knight___lazaursTests.swift"; sourceTree = "<group>"; };
+		4533D9962725302200EE92E8 /* knight & lazaursUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "knight & lazaursUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4533D99A2725302200EE92E8 /* knight___lazaursUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "knight___lazaursUITests.swift"; sourceTree = "<group>"; };
+		4533D99C2725302200EE92E8 /* knight___lazaursUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "knight___lazaursUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4533D9732725302100EE92E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4533D9892725302200EE92E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4533D9932725302200EE92E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4533D96D2725302100EE92E8 = {
+			isa = PBXGroup;
+			children = (
+				4533D9782725302100EE92E8 /* knight & lazaurs */,
+				4533D98F2725302200EE92E8 /* knight & lazaursTests */,
+				4533D9992725302200EE92E8 /* knight & lazaursUITests */,
+				4533D9772725302100EE92E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4533D9772725302100EE92E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4533D9762725302100EE92E8 /* knight & lazaurs.app */,
+				4533D98C2725302200EE92E8 /* knight & lazaursTests.xctest */,
+				4533D9962725302200EE92E8 /* knight & lazaursUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4533D9782725302100EE92E8 /* knight & lazaurs */ = {
+			isa = PBXGroup;
+			children = (
+				4533D9792725302100EE92E8 /* AppDelegate.swift */,
+				4533D97B2725302100EE92E8 /* SceneDelegate.swift */,
+				4533D97D2725302100EE92E8 /* ViewController.swift */,
+				4533D97F2725302100EE92E8 /* Main.storyboard */,
+				4533D9822725302200EE92E8 /* Assets.xcassets */,
+				4533D9842725302200EE92E8 /* LaunchScreen.storyboard */,
+				4533D9872725302200EE92E8 /* Info.plist */,
+			);
+			path = "knight & lazaurs";
+			sourceTree = "<group>";
+		};
+		4533D98F2725302200EE92E8 /* knight & lazaursTests */ = {
+			isa = PBXGroup;
+			children = (
+				4533D9902725302200EE92E8 /* knight___lazaursTests.swift */,
+			);
+			path = "knight & lazaursTests";
+			sourceTree = "<group>";
+		};
+		4533D9992725302200EE92E8 /* knight & lazaursUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4533D99A2725302200EE92E8 /* knight___lazaursUITests.swift */,
+				4533D99C2725302200EE92E8 /* knight___lazaursUITestsLaunchTests.swift */,
+			);
+			path = "knight & lazaursUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4533D9752725302100EE92E8 /* knight & lazaurs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4533D9A02725302200EE92E8 /* Build configuration list for PBXNativeTarget "knight & lazaurs" */;
+			buildPhases = (
+				4533D9722725302100EE92E8 /* Sources */,
+				4533D9732725302100EE92E8 /* Frameworks */,
+				4533D9742725302100EE92E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "knight & lazaurs";
+			productName = "knight & lazaurs";
+			productReference = 4533D9762725302100EE92E8 /* knight & lazaurs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4533D98B2725302200EE92E8 /* knight & lazaursTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4533D9A32725302200EE92E8 /* Build configuration list for PBXNativeTarget "knight & lazaursTests" */;
+			buildPhases = (
+				4533D9882725302200EE92E8 /* Sources */,
+				4533D9892725302200EE92E8 /* Frameworks */,
+				4533D98A2725302200EE92E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4533D98E2725302200EE92E8 /* PBXTargetDependency */,
+			);
+			name = "knight & lazaursTests";
+			productName = "knight & lazaursTests";
+			productReference = 4533D98C2725302200EE92E8 /* knight & lazaursTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4533D9952725302200EE92E8 /* knight & lazaursUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4533D9A62725302200EE92E8 /* Build configuration list for PBXNativeTarget "knight & lazaursUITests" */;
+			buildPhases = (
+				4533D9922725302200EE92E8 /* Sources */,
+				4533D9932725302200EE92E8 /* Frameworks */,
+				4533D9942725302200EE92E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4533D9982725302200EE92E8 /* PBXTargetDependency */,
+			);
+			name = "knight & lazaursUITests";
+			productName = "knight & lazaursUITests";
+			productReference = 4533D9962725302200EE92E8 /* knight & lazaursUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4533D96E2725302100EE92E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					4533D9752725302100EE92E8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					4533D98B2725302200EE92E8 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 4533D9752725302100EE92E8;
+					};
+					4533D9952725302200EE92E8 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 4533D9752725302100EE92E8;
+					};
+				};
+			};
+			buildConfigurationList = 4533D9712725302100EE92E8 /* Build configuration list for PBXProject "knight & lazaurs" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4533D96D2725302100EE92E8;
+			productRefGroup = 4533D9772725302100EE92E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4533D9752725302100EE92E8 /* knight & lazaurs */,
+				4533D98B2725302200EE92E8 /* knight & lazaursTests */,
+				4533D9952725302200EE92E8 /* knight & lazaursUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4533D9742725302100EE92E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4533D9862725302200EE92E8 /* LaunchScreen.storyboard in Resources */,
+				4533D9832725302200EE92E8 /* Assets.xcassets in Resources */,
+				4533D9812725302100EE92E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4533D98A2725302200EE92E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4533D9942725302200EE92E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4533D9722725302100EE92E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4533D97E2725302100EE92E8 /* ViewController.swift in Sources */,
+				4533D97A2725302100EE92E8 /* AppDelegate.swift in Sources */,
+				4533D97C2725302100EE92E8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4533D9882725302200EE92E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4533D9912725302200EE92E8 /* knight___lazaursTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4533D9922725302200EE92E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4533D99D2725302200EE92E8 /* knight___lazaursUITestsLaunchTests.swift in Sources */,
+				4533D99B2725302200EE92E8 /* knight___lazaursUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4533D98E2725302200EE92E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4533D9752725302100EE92E8 /* knight & lazaurs */;
+			targetProxy = 4533D98D2725302200EE92E8 /* PBXContainerItemProxy */;
+		};
+		4533D9982725302200EE92E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4533D9752725302100EE92E8 /* knight & lazaurs */;
+			targetProxy = 4533D9972725302200EE92E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4533D97F2725302100EE92E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4533D9802725302100EE92E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4533D9842725302200EE92E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4533D9852725302200EE92E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4533D99E2725302200EE92E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4533D99F2725302200EE92E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4533D9A12725302200EE92E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "knight & lazaurs/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.knight---lazaurs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4533D9A22725302200EE92E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "knight & lazaurs/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.knight---lazaurs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4533D9A42725302200EE92E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.knight---lazaursTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/knight & lazaurs.app/knight & lazaurs";
+			};
+			name = Debug;
+		};
+		4533D9A52725302200EE92E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.knight---lazaursTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/knight & lazaurs.app/knight & lazaurs";
+			};
+			name = Release;
+		};
+		4533D9A72725302200EE92E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.knight---lazaursUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "knight & lazaurs";
+			};
+			name = Debug;
+		};
+		4533D9A82725302200EE92E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.knight---lazaursUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "knight & lazaurs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4533D9712725302100EE92E8 /* Build configuration list for PBXProject "knight & lazaurs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4533D99E2725302200EE92E8 /* Debug */,
+				4533D99F2725302200EE92E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4533D9A02725302200EE92E8 /* Build configuration list for PBXNativeTarget "knight & lazaurs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4533D9A12725302200EE92E8 /* Debug */,
+				4533D9A22725302200EE92E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4533D9A32725302200EE92E8 /* Build configuration list for PBXNativeTarget "knight & lazaursTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4533D9A42725302200EE92E8 /* Debug */,
+				4533D9A52725302200EE92E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4533D9A62725302200EE92E8 /* Build configuration list for PBXNativeTarget "knight & lazaursUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4533D9A72725302200EE92E8 /* Debug */,
+				4533D9A82725302200EE92E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4533D96E2725302100EE92E8 /* Project object */;
+}
