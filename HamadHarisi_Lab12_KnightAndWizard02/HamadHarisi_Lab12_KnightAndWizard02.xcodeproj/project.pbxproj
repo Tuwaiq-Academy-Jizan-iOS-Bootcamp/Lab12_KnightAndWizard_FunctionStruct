@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6FDD0A02724A7DA00868018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FDD09F2724A7DA00868018 /* AppDelegate.swift */; };
+		C6FDD0A22724A7DA00868018 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FDD0A12724A7DA00868018 /* SceneDelegate.swift */; };
+		C6FDD0A42724A7DA00868018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FDD0A32724A7DA00868018 /* ViewController.swift */; };
+		C6FDD0A72724A7DA00868018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6FDD0A52724A7DA00868018 /* Main.storyboard */; };
+		C6FDD0A92724A7DB00868018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FDD0A82724A7DB00868018 /* Assets.xcassets */; };
+		C6FDD0AC2724A7DB00868018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6FDD0AA2724A7DB00868018 /* LaunchScreen.storyboard */; };
+		C6FDD0B72724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FDD0B62724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02Tests.swift */; };
+		C6FDD0C12724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FDD0C02724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITests.swift */; };
+		C6FDD0C32724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FDD0C22724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6FDD0B32724A7DC00868018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6FDD0942724A7DA00868018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6FDD09B2724A7DA00868018;
+			remoteInfo = HamadHarisi_Lab12_KnightAndWizard02;
+		};
+		C6FDD0BD2724A7DC00868018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6FDD0942724A7DA00868018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6FDD09B2724A7DA00868018;
+			remoteInfo = HamadHarisi_Lab12_KnightAndWizard02;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6FDD09C2724A7DA00868018 /* HamadHarisi_Lab12_KnightAndWizard02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamadHarisi_Lab12_KnightAndWizard02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6FDD09F2724A7DA00868018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6FDD0A12724A7DA00868018 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C6FDD0A32724A7DA00868018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6FDD0A62724A7DA00868018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6FDD0A82724A7DB00868018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6FDD0AB2724A7DB00868018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6FDD0AD2724A7DB00868018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6FDD0B22724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamadHarisi_Lab12_KnightAndWizard02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6FDD0B62724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamadHarisi_Lab12_KnightAndWizard02Tests.swift; sourceTree = "<group>"; };
+		C6FDD0BC2724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamadHarisi_Lab12_KnightAndWizard02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6FDD0C02724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamadHarisi_Lab12_KnightAndWizard02UITests.swift; sourceTree = "<group>"; };
+		C6FDD0C22724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamadHarisi_Lab12_KnightAndWizard02UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6FDD0992724A7DA00868018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FDD0AF2724A7DC00868018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FDD0B92724A7DC00868018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6FDD0932724A7DA00868018 = {
+			isa = PBXGroup;
+			children = (
+				C6FDD09E2724A7DA00868018 /* HamadHarisi_Lab12_KnightAndWizard02 */,
+				C6FDD0B52724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02Tests */,
+				C6FDD0BF2724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITests */,
+				C6FDD09D2724A7DA00868018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6FDD09D2724A7DA00868018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6FDD09C2724A7DA00868018 /* HamadHarisi_Lab12_KnightAndWizard02.app */,
+				C6FDD0B22724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02Tests.xctest */,
+				C6FDD0BC2724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6FDD09E2724A7DA00868018 /* HamadHarisi_Lab12_KnightAndWizard02 */ = {
+			isa = PBXGroup;
+			children = (
+				C6FDD09F2724A7DA00868018 /* AppDelegate.swift */,
+				C6FDD0A12724A7DA00868018 /* SceneDelegate.swift */,
+				C6FDD0A32724A7DA00868018 /* ViewController.swift */,
+				C6FDD0A52724A7DA00868018 /* Main.storyboard */,
+				C6FDD0A82724A7DB00868018 /* Assets.xcassets */,
+				C6FDD0AA2724A7DB00868018 /* LaunchScreen.storyboard */,
+				C6FDD0AD2724A7DB00868018 /* Info.plist */,
+			);
+			path = HamadHarisi_Lab12_KnightAndWizard02;
+			sourceTree = "<group>";
+		};
+		C6FDD0B52724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C6FDD0B62724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02Tests.swift */,
+			);
+			path = HamadHarisi_Lab12_KnightAndWizard02Tests;
+			sourceTree = "<group>";
+		};
+		C6FDD0BF2724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6FDD0C02724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITests.swift */,
+				C6FDD0C22724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITestsLaunchTests.swift */,
+			);
+			path = HamadHarisi_Lab12_KnightAndWizard02UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6FDD09B2724A7DA00868018 /* HamadHarisi_Lab12_KnightAndWizard02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6FDD0C62724A7DC00868018 /* Build configuration list for PBXNativeTarget "HamadHarisi_Lab12_KnightAndWizard02" */;
+			buildPhases = (
+				C6FDD0982724A7DA00868018 /* Sources */,
+				C6FDD0992724A7DA00868018 /* Frameworks */,
+				C6FDD09A2724A7DA00868018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamadHarisi_Lab12_KnightAndWizard02;
+			productName = HamadHarisi_Lab12_KnightAndWizard02;
+			productReference = C6FDD09C2724A7DA00868018 /* HamadHarisi_Lab12_KnightAndWizard02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6FDD0B12724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6FDD0C92724A7DC00868018 /* Build configuration list for PBXNativeTarget "HamadHarisi_Lab12_KnightAndWizard02Tests" */;
+			buildPhases = (
+				C6FDD0AE2724A7DC00868018 /* Sources */,
+				C6FDD0AF2724A7DC00868018 /* Frameworks */,
+				C6FDD0B02724A7DC00868018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6FDD0B42724A7DC00868018 /* PBXTargetDependency */,
+			);
+			name = HamadHarisi_Lab12_KnightAndWizard02Tests;
+			productName = HamadHarisi_Lab12_KnightAndWizard02Tests;
+			productReference = C6FDD0B22724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6FDD0BB2724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6FDD0CC2724A7DC00868018 /* Build configuration list for PBXNativeTarget "HamadHarisi_Lab12_KnightAndWizard02UITests" */;
+			buildPhases = (
+				C6FDD0B82724A7DC00868018 /* Sources */,
+				C6FDD0B92724A7DC00868018 /* Frameworks */,
+				C6FDD0BA2724A7DC00868018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6FDD0BE2724A7DC00868018 /* PBXTargetDependency */,
+			);
+			name = HamadHarisi_Lab12_KnightAndWizard02UITests;
+			productName = HamadHarisi_Lab12_KnightAndWizard02UITests;
+			productReference = C6FDD0BC2724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6FDD0942724A7DA00868018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C6FDD09B2724A7DA00868018 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C6FDD0B12724A7DC00868018 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C6FDD09B2724A7DA00868018;
+					};
+					C6FDD0BB2724A7DC00868018 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C6FDD09B2724A7DA00868018;
+					};
+				};
+			};
+			buildConfigurationList = C6FDD0972724A7DA00868018 /* Build configuration list for PBXProject "HamadHarisi_Lab12_KnightAndWizard02" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6FDD0932724A7DA00868018;
+			productRefGroup = C6FDD09D2724A7DA00868018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6FDD09B2724A7DA00868018 /* HamadHarisi_Lab12_KnightAndWizard02 */,
+				C6FDD0B12724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02Tests */,
+				C6FDD0BB2724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6FDD09A2724A7DA00868018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FDD0AC2724A7DB00868018 /* LaunchScreen.storyboard in Resources */,
+				C6FDD0A92724A7DB00868018 /* Assets.xcassets in Resources */,
+				C6FDD0A72724A7DA00868018 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FDD0B02724A7DC00868018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FDD0BA2724A7DC00868018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6FDD0982724A7DA00868018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FDD0A42724A7DA00868018 /* ViewController.swift in Sources */,
+				C6FDD0A02724A7DA00868018 /* AppDelegate.swift in Sources */,
+				C6FDD0A22724A7DA00868018 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FDD0AE2724A7DC00868018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FDD0B72724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FDD0B82724A7DC00868018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FDD0C12724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITests.swift in Sources */,
+				C6FDD0C32724A7DC00868018 /* HamadHarisi_Lab12_KnightAndWizard02UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6FDD0B42724A7DC00868018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6FDD09B2724A7DA00868018 /* HamadHarisi_Lab12_KnightAndWizard02 */;
+			targetProxy = C6FDD0B32724A7DC00868018 /* PBXContainerItemProxy */;
+		};
+		C6FDD0BE2724A7DC00868018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6FDD09B2724A7DA00868018 /* HamadHarisi_Lab12_KnightAndWizard02 */;
+			targetProxy = C6FDD0BD2724A7DC00868018 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6FDD0A52724A7DA00868018 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6FDD0A62724A7DA00868018 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6FDD0AA2724A7DB00868018 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6FDD0AB2724A7DB00868018 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6FDD0C42724A7DC00868018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6FDD0C52724A7DC00868018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6FDD0C72724A7DC00868018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HamadHarisi_Lab12_KnightAndWizard02/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HamadHarisi-Lab12-KnightAndWizard01.HamadHarisi-Lab12-KnightAndWizard02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6FDD0C82724A7DC00868018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HamadHarisi_Lab12_KnightAndWizard02/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HamadHarisi-Lab12-KnightAndWizard01.HamadHarisi-Lab12-KnightAndWizard02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6FDD0CA2724A7DC00868018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HamadHarisi-Lab12-KnightAndWizard01.HamadHarisi-Lab12-KnightAndWizard02Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamadHarisi_Lab12_KnightAndWizard02.app/HamadHarisi_Lab12_KnightAndWizard02";
+			};
+			name = Debug;
+		};
+		C6FDD0CB2724A7DC00868018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HamadHarisi-Lab12-KnightAndWizard01.HamadHarisi-Lab12-KnightAndWizard02Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamadHarisi_Lab12_KnightAndWizard02.app/HamadHarisi_Lab12_KnightAndWizard02";
+			};
+			name = Release;
+		};
+		C6FDD0CD2724A7DC00868018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HamadHarisi-Lab12-KnightAndWizard01.HamadHarisi-Lab12-KnightAndWizard02UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HamadHarisi_Lab12_KnightAndWizard02;
+			};
+			name = Debug;
+		};
+		C6FDD0CE2724A7DC00868018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HamadHarisi-Lab12-KnightAndWizard01.HamadHarisi-Lab12-KnightAndWizard02UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HamadHarisi_Lab12_KnightAndWizard02;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6FDD0972724A7DA00868018 /* Build configuration list for PBXProject "HamadHarisi_Lab12_KnightAndWizard02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6FDD0C42724A7DC00868018 /* Debug */,
+				C6FDD0C52724A7DC00868018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6FDD0C62724A7DC00868018 /* Build configuration list for PBXNativeTarget "HamadHarisi_Lab12_KnightAndWizard02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6FDD0C72724A7DC00868018 /* Debug */,
+				C6FDD0C82724A7DC00868018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6FDD0C92724A7DC00868018 /* Build configuration list for PBXNativeTarget "HamadHarisi_Lab12_KnightAndWizard02Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6FDD0CA2724A7DC00868018 /* Debug */,
+				C6FDD0CB2724A7DC00868018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6FDD0CC2724A7DC00868018 /* Build configuration list for PBXNativeTarget "HamadHarisi_Lab12_KnightAndWizard02UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6FDD0CD2724A7DC00868018 /* Debug */,
+				C6FDD0CE2724A7DC00868018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6FDD0942724A7DA00868018 /* Project object */;
+}
