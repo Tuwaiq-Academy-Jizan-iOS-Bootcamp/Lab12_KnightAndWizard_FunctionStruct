@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A94B9627245031002CE202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A94B9527245031002CE202 /* AppDelegate.swift */; };
+		11A94B9827245031002CE202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A94B9727245031002CE202 /* SceneDelegate.swift */; };
+		11A94B9A27245031002CE202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A94B9927245031002CE202 /* ViewController.swift */; };
+		11A94B9D27245031002CE202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A94B9B27245031002CE202 /* Main.storyboard */; };
+		11A94B9F27245033002CE202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A94B9E27245033002CE202 /* Assets.xcassets */; };
+		11A94BA227245033002CE202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A94BA027245033002CE202 /* LaunchScreen.storyboard */; };
+		11A94BAD27245033002CE202 /* Layla_Hakami_lab12Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A94BAC27245033002CE202 /* Layla_Hakami_lab12Tests.swift */; };
+		11A94BB727245033002CE202 /* Layla_Hakami_lab12UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A94BB627245033002CE202 /* Layla_Hakami_lab12UITests.swift */; };
+		11A94BB927245033002CE202 /* Layla_Hakami_lab12UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A94BB827245033002CE202 /* Layla_Hakami_lab12UITestsLaunchTests.swift */; };
+		11A94BC627245558002CE202 /* Lazros.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A94BC527245558002CE202 /* Lazros.png */; };
+		11A94BC827245561002CE202 /* Elven.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A94BC727245561002CE202 /* Elven.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11A94BA927245033002CE202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A94B8A27245031002CE202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A94B9127245031002CE202;
+			remoteInfo = "Layla Hakami lab12";
+		};
+		11A94BB327245033002CE202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A94B8A27245031002CE202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A94B9127245031002CE202;
+			remoteInfo = "Layla Hakami lab12";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A94B9227245031002CE202 /* Layla Hakami lab12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Layla Hakami lab12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A94B9527245031002CE202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11A94B9727245031002CE202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11A94B9927245031002CE202 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11A94B9C27245031002CE202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11A94B9E27245033002CE202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11A94BA127245033002CE202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11A94BA327245033002CE202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A94BA827245033002CE202 /* Layla Hakami lab12Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Layla Hakami lab12Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A94BAC27245033002CE202 /* Layla_Hakami_lab12Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layla_Hakami_lab12Tests.swift; sourceTree = "<group>"; };
+		11A94BB227245033002CE202 /* Layla Hakami lab12UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Layla Hakami lab12UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A94BB627245033002CE202 /* Layla_Hakami_lab12UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layla_Hakami_lab12UITests.swift; sourceTree = "<group>"; };
+		11A94BB827245033002CE202 /* Layla_Hakami_lab12UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layla_Hakami_lab12UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11A94BC527245558002CE202 /* Lazros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lazros.png; path = ../../../Lazros.png; sourceTree = "<group>"; };
+		11A94BC727245561002CE202 /* Elven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Elven.png; path = ../../../Elven.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A94B8F27245031002CE202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A94BA527245033002CE202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A94BAF27245033002CE202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A94B8927245031002CE202 = {
+			isa = PBXGroup;
+			children = (
+				11A94B9427245031002CE202 /* Layla Hakami lab12 */,
+				11A94BAB27245033002CE202 /* Layla Hakami lab12Tests */,
+				11A94BB527245033002CE202 /* Layla Hakami lab12UITests */,
+				11A94B9327245031002CE202 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11A94B9327245031002CE202 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A94B9227245031002CE202 /* Layla Hakami lab12.app */,
+				11A94BA827245033002CE202 /* Layla Hakami lab12Tests.xctest */,
+				11A94BB227245033002CE202 /* Layla Hakami lab12UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11A94B9427245031002CE202 /* Layla Hakami lab12 */ = {
+			isa = PBXGroup;
+			children = (
+				11A94B9527245031002CE202 /* AppDelegate.swift */,
+				11A94B9727245031002CE202 /* SceneDelegate.swift */,
+				11A94B9927245031002CE202 /* ViewController.swift */,
+				11A94B9B27245031002CE202 /* Main.storyboard */,
+				11A94B9E27245033002CE202 /* Assets.xcassets */,
+				11A94BC727245561002CE202 /* Elven.png */,
+				11A94BC527245558002CE202 /* Lazros.png */,
+				11A94BA027245033002CE202 /* LaunchScreen.storyboard */,
+				11A94BA327245033002CE202 /* Info.plist */,
+			);
+			path = "Layla Hakami lab12";
+			sourceTree = "<group>";
+		};
+		11A94BAB27245033002CE202 /* Layla Hakami lab12Tests */ = {
+			isa = PBXGroup;
+			children = (
+				11A94BAC27245033002CE202 /* Layla_Hakami_lab12Tests.swift */,
+			);
+			path = "Layla Hakami lab12Tests";
+			sourceTree = "<group>";
+		};
+		11A94BB527245033002CE202 /* Layla Hakami lab12UITests */ = {
+			isa = PBXGroup;
+			children = (
+				11A94BB627245033002CE202 /* Layla_Hakami_lab12UITests.swift */,
+				11A94BB827245033002CE202 /* Layla_Hakami_lab12UITestsLaunchTests.swift */,
+			);
+			path = "Layla Hakami lab12UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A94B9127245031002CE202 /* Layla Hakami lab12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A94BBC27245033002CE202 /* Build configuration list for PBXNativeTarget "Layla Hakami lab12" */;
+			buildPhases = (
+				11A94B8E27245031002CE202 /* Sources */,
+				11A94B8F27245031002CE202 /* Frameworks */,
+				11A94B9027245031002CE202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Layla Hakami lab12";
+			productName = "Layla Hakami lab12";
+			productReference = 11A94B9227245031002CE202 /* Layla Hakami lab12.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11A94BA727245033002CE202 /* Layla Hakami lab12Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A94BBF27245033002CE202 /* Build configuration list for PBXNativeTarget "Layla Hakami lab12Tests" */;
+			buildPhases = (
+				11A94BA427245033002CE202 /* Sources */,
+				11A94BA527245033002CE202 /* Frameworks */,
+				11A94BA627245033002CE202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A94BAA27245033002CE202 /* PBXTargetDependency */,
+			);
+			name = "Layla Hakami lab12Tests";
+			productName = "Layla Hakami lab12Tests";
+			productReference = 11A94BA827245033002CE202 /* Layla Hakami lab12Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11A94BB127245033002CE202 /* Layla Hakami lab12UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A94BC227245033002CE202 /* Build configuration list for PBXNativeTarget "Layla Hakami lab12UITests" */;
+			buildPhases = (
+				11A94BAE27245033002CE202 /* Sources */,
+				11A94BAF27245033002CE202 /* Frameworks */,
+				11A94BB027245033002CE202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A94BB427245033002CE202 /* PBXTargetDependency */,
+			);
+			name = "Layla Hakami lab12UITests";
+			productName = "Layla Hakami lab12UITests";
+			productReference = 11A94BB227245033002CE202 /* Layla Hakami lab12UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A94B8A27245031002CE202 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					11A94B9127245031002CE202 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					11A94BA727245033002CE202 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 11A94B9127245031002CE202;
+					};
+					11A94BB127245033002CE202 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 11A94B9127245031002CE202;
+					};
+				};
+			};
+			buildConfigurationList = 11A94B8D27245031002CE202 /* Build configuration list for PBXProject "Layla Hakami lab12" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11A94B8927245031002CE202;
+			productRefGroup = 11A94B9327245031002CE202 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A94B9127245031002CE202 /* Layla Hakami lab12 */,
+				11A94BA727245033002CE202 /* Layla Hakami lab12Tests */,
+				11A94BB127245033002CE202 /* Layla Hakami lab12UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A94B9027245031002CE202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A94BC627245558002CE202 /* Lazros.png in Resources */,
+				11A94BC827245561002CE202 /* Elven.png in Resources */,
+				11A94BA227245033002CE202 /* LaunchScreen.storyboard in Resources */,
+				11A94B9F27245033002CE202 /* Assets.xcassets in Resources */,
+				11A94B9D27245031002CE202 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A94BA627245033002CE202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A94BB027245033002CE202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A94B8E27245031002CE202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A94B9A27245031002CE202 /* ViewController.swift in Sources */,
+				11A94B9627245031002CE202 /* AppDelegate.swift in Sources */,
+				11A94B9827245031002CE202 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A94BA427245033002CE202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A94BAD27245033002CE202 /* Layla_Hakami_lab12Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A94BAE27245033002CE202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A94BB927245033002CE202 /* Layla_Hakami_lab12UITestsLaunchTests.swift in Sources */,
+				11A94BB727245033002CE202 /* Layla_Hakami_lab12UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A94BAA27245033002CE202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A94B9127245031002CE202 /* Layla Hakami lab12 */;
+			targetProxy = 11A94BA927245033002CE202 /* PBXContainerItemProxy */;
+		};
+		11A94BB427245033002CE202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A94B9127245031002CE202 /* Layla Hakami lab12 */;
+			targetProxy = 11A94BB327245033002CE202 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11A94B9B27245031002CE202 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A94B9C27245031002CE202 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11A94BA027245033002CE202 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A94BA127245033002CE202 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11A94BBA27245033002CE202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11A94BBB27245033002CE202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A94BBD27245033002CE202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ULBSA6XW4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Layla Hakami lab12/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "layla.Layla-Hakami-lab12";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11A94BBE27245033002CE202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ULBSA6XW4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Layla Hakami lab12/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "layla.Layla-Hakami-lab12";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11A94BC027245033002CE202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ULBSA6XW4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "layla.Layla-Hakami-lab12Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Layla Hakami lab12.app/Layla Hakami lab12";
+			};
+			name = Debug;
+		};
+		11A94BC127245033002CE202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ULBSA6XW4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "layla.Layla-Hakami-lab12Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Layla Hakami lab12.app/Layla Hakami lab12";
+			};
+			name = Release;
+		};
+		11A94BC327245033002CE202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ULBSA6XW4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "layla.Layla-Hakami-lab12UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Layla Hakami lab12";
+			};
+			name = Debug;
+		};
+		11A94BC427245033002CE202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ULBSA6XW4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "layla.Layla-Hakami-lab12UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Layla Hakami lab12";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A94B8D27245031002CE202 /* Build configuration list for PBXProject "Layla Hakami lab12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A94BBA27245033002CE202 /* Debug */,
+				11A94BBB27245033002CE202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A94BBC27245033002CE202 /* Build configuration list for PBXNativeTarget "Layla Hakami lab12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A94BBD27245033002CE202 /* Debug */,
+				11A94BBE27245033002CE202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A94BBF27245033002CE202 /* Build configuration list for PBXNativeTarget "Layla Hakami lab12Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A94BC027245033002CE202 /* Debug */,
+				11A94BC127245033002CE202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A94BC227245033002CE202 /* Build configuration list for PBXNativeTarget "Layla Hakami lab12UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A94BC327245033002CE202 /* Debug */,
+				11A94BC427245033002CE202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11A94B8A27245031002CE202 /* Project object */;
+}
