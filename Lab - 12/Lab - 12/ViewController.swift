@@ -34,9 +34,9 @@ class Hero {
         }
     }
     
-    init(_ heroName: String, heroLevel: Int, lifePoint: Int) {
-        self.name                    = heroName
-        self.level                   = heroLevel
+    init(_ name: String, level: Int, lifePoint: Int) {
+        self.name                    = name
+        self.level                   = level
         self.lifePoint          = lifePoint
     }
 }
@@ -62,9 +62,9 @@ class Elvin: Hero {
 //Elvin got 3 special skills - Life point 140//
 
 class ViewController: UIViewController {
-    var liz = Lazarus("Lazarus", heroLevel: 0, lifePoint: 160)
+    var liz = Lazarus("Lazarus", level: 0, lifePoint: 160)
     
-    var el  = Elvin("Elvin", heroLevel: 0, lifePoint: 140)
+    var el  = Elvin("Elvin", level: 0, lifePoint: 140)
     
     override func viewDidLoad() {
         super.viewDidLoad()
