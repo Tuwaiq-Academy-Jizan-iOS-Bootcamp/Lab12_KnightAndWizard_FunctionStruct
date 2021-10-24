@@ -142,7 +142,7 @@ class ViewController: UIViewController {
                                       print("the dice rool is \(rollDice)")
                                       elvinPower.fireBallAction()
                                       lazarus.lifePoints -= elvinPower.damage
-                                      elvin.lifePoints += elvinPower.specialEffect
+                                      elvin.lifePoints -= elvinPower.specialEffect
                                       print("Lazarus life point = \(lazarus.lifePoints)")
                                       print("elvin life point = \(elvin.lifePoints)")
                                       print("***************************************")
