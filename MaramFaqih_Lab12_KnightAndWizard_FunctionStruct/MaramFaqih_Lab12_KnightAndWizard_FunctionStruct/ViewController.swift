@@ -107,6 +107,7 @@ class ViewController: UIViewController {
             
             print("Lif point (Elvin) : \(elvin.life_point)")
             print("Lif point (Lazarus): \(lazarus.life_point) ,Level (Lazarus): \(lazarus.level)")
+            theWiner(name: "Lazarus",lifePoint:elvin.life_point)
             
         case 3 : print("3 - Lazarus use Mega Fist: ")
             elvin.life_point += lazarus.powerForLazarus.damage
@@ -116,6 +117,7 @@ class ViewController: UIViewController {
             
             print("Lif point (Elvin): \(elvin.life_point)")
             print("Heal (Lazarus): \(lazarus.heal) ,Level (Lazarus): \(lazarus.level)")
+            theWiner(name: "Lazarus",lifePoint:elvin.life_point)
             
         case 4 :
             print("4 - Elvin use Heal, Heal is: \(elvin.heal) ")
@@ -123,6 +125,7 @@ class ViewController: UIViewController {
             elvin.heal -= elvin.heal
             
             print("Lif point (Elvin): \(elvin.life_point) ,Level (Elvin): \(elvin.level)")
+            
         case 5 :
             print("5 - Elvin use Fire Ball: ")
             lazarus.life_point += elvin.powerForElvin.damage
@@ -132,6 +135,7 @@ class ViewController: UIViewController {
             
             print("Lif point (Lazarus): \(lazarus.life_point)")
             print("Heal (Elvin): \(elvin.heal) ,Level (Elvin): \(elvin.level)")
+            theWiner(name: "Elvin",lifePoint:lazarus.life_point)
             
         case 6 :
             print("6 - Elvin use Stick of Wise: ")
@@ -141,11 +145,14 @@ class ViewController: UIViewController {
             
             print("Lif point (Lazarus): \(lazarus.life_point)")
             print("Lif point (Elvin): \(elvin.life_point) ,Level (Elvin):\(elvin.level)")
+            
+            theWiner(name: "Elvin",lifePoint:lazarus.life_point)
            
        default:
             print("notheng")
             
-        }}else{
+        }}
+        /*else{
             if (lazarus.life_point <= 0){
                 viewResult.text="The Winer is : Elvin "
                 print("The Winer is : Elvin ")
@@ -156,13 +163,20 @@ class ViewController: UIViewController {
                 print("The Winer is : lazarus ")
                 diceButton.isEnabled = false
             
-            }
             
-        }
+            
+        }*/
     }
     
     func randomDiceNo()->Int{
         return Int.random(in: 1...6)
+    }
+func theWiner(name: String,lifePoint:Int){
+        if (lifePoint <= 0){
+            viewResult.text="The Winer is : \(name) "
+            print("The Winer is : \(name) ")
+            diceButton.isEnabled = false
+        }
     }
     
     
