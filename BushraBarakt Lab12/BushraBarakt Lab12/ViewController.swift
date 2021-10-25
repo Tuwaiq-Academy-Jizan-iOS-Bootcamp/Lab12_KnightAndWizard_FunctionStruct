@@ -11,14 +11,16 @@ class Hero {
     var characteristic: String
     var level : Int
     var lifePoint : Int
+   
     
-    init (name: String,characteristic: String, level: Int, lifePoint: Int){
+    init (name: String,characteristic: String, level: Int, lifePoint: Int ){
         self.name = name
         self.characteristic = characteristic
         self.level = level
         self.lifePoint = lifePoint
+        
+    
     }
-   
     }
 
 class HeroLazarus: Hero  {
@@ -35,6 +37,12 @@ class HeroLazarus: Hero  {
     func healLazarus(){
         print ("Lazarus recovered 10 life poin")
 }
+    func restOfLife() {
+        if lifePoint < 0 {
+            lifePoint = 0
+        }
+        print("Rest of life point for Lazarus : \(lifePoint)")
+    }
 }
 
 class HeroElvin: Hero {
@@ -52,6 +60,12 @@ class HeroElvin: Hero {
         print ("Elvin recovered 15 life point")
         
 }
+    func restOfLife() {
+        if lifePoint < 0 {
+            lifePoint = 0
+        }
+        print("Rest of life point for Lazarus : \(lifePoint)")
+    }
 }
 
 struct Weapon {
@@ -104,8 +118,21 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 }
+   var winner = false
+   var turn = 0
+    
 
     @IBAction func button(_ sender: Any) {
+        turn += 1
+        if winner {
+            print("Game Over ! ")
+        } else {
+            print("------- This is the turn N°\(turn)--------")
+            logicOfTheGame()
+            print("============== This is the end of turn N°\(turn)===============")
+        }
+    }
+    func logicOfTheGame(){
         if lazarus.lifePoint == dead || elvin.lifePoint == dead { print ("end of the game")}
         
         if  lazarus.lifePoint > dead || elvin.lifePoint > dead {
@@ -114,63 +141,59 @@ class ViewController: UIViewController {
                 print ("the dice roll is \(randomDice)")
                 lazarus.healLazarus()
                 lazarus.lifePoint += lazarus.heal
-                print ("Lazarus life point =\(lazarus.lifePoint) ")
-                print ("elvin life point = \(elvin.lifePoint)")
+                lazarus.restOfLife()
+                elvin.restOfLife()
                 print ("...................................")
             }else if randomDice == 2 {
                 print ("the dice roll is \(randomDice)")
                 lazarusWeapon.swordAction()
                 elvin.lifePoint -= lazarusWeapon.damage
-                print ("elvin life point = \(elvin.lifePoint) ")
-                print ("lazarus life point = \(lazarus.lifePoint) ")
+                lazarus.restOfLife()
+                elvin.restOfLife()
                 print ("...................................")
             }else if randomDice == 3 {
                 print ("the dice roll is \(randomDice)")
                 lazarusPower.megaFist()
                 elvin.lifePoint -= lazarusPower.damage
                 lazarus.lifePoint += lazarusPower.specialEffect
-                print ("elvin life point = \(elvin.lifePoint)")
-                print ("lazarus life point = \(lazarus.lifePoint) ")
+                lazarus.restOfLife()
+                elvin.restOfLife()
                 print(".....................................")
             }else if randomDice == 4 {
                 print ("the dice roll is \(randomDice)")
                 elvin.healElvin()
                 elvin.lifePoint += elvin.heal
-                print ("elvin life point = \(elvin.lifePoint) ")
-                print ("lazarus life point = \(lazarus.lifePoint)")
+                lazarus.restOfLife()
+                elvin.restOfLife()
                 print ("....................................")
             }else if randomDice == 5 {
                 print ("the dice roll is \(randomDice)")
                 elvinPower.fireBall()
                 lazarus.lifePoint -= elvinPower.damage
-                elvin.lifePoint += elvinPower.specialEffect
-                print ("elvin life point = \(elvin.lifePoint)")
-                print ("lazarus life point = \(lazarus.lifePoint)")
+                lazarus.lifePoint -= elvinPower.specialEffect
+                lazarus.restOfLife()
+                elvin.restOfLife()
                 print (".....................................")
             }else {
                 print ("the dice roll is \(randomDice)")
                 elvinWeapon.stickAction()
                 lazarus.lifePoint -= elvinWeapon.damage
-                print ("lazarus life point = \(lazarus.lifePoint) ")
-                print ("elvin life point = \(elvin.lifePoint) ")
+                lazarus.restOfLife()
+                elvin.restOfLife()
                 print ("......................................")
             }
             if elvin.lifePoint <= dead {
                 print ("\(lazarus.name) is a WINNER 🥳")
                 heroImage.image = UIImage (named:  "Lazarus")
-                
+                winner = true
                 
             }else if lazarus.lifePoint <= dead {
                 print ("\(elvin.name) is a WINNER 🥳")
                 heroImage.image = UIImage (named: "Elvin")
-                
+                winner = true
                 print ("......................................")
             }
         }
    
-         
-        
     }
-    
-
-}
+    }
