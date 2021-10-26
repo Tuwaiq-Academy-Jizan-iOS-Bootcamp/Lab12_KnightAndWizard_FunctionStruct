@@ -11,6 +11,7 @@ class Hero{
     var Level:Int
     var characteristic:String
     var lifePoints:Int
+    
     init (name:String,level:Int,characteristic:String,lifePoints:Int){
         self.name = name
         self.Level = level
@@ -28,11 +29,17 @@ class Lazarus: Hero{
         self.heal = heal
         super .init(name: name, level: level, characteristic: characteristic, lifePoints: lifePoints)
     }
+    
     func Heal() {
         print("Lazarus use his healing skill and Recover +10 Life Points")
     }
+func restOfLife(){
+    if lifePoints < 0 {
+        lifePoints = 0
+        print("Rest of life Points for lazarus : \(lifePoints)")
+    }
 }
-         
+}
                     
 class Evlin: Hero{
     var stickOfTheWise:Int
@@ -47,6 +54,14 @@ class Evlin: Hero{
     func Heal() {
         print("Evlin use his healing skill and Recover +15 Life Points")
     }
+
+        func restOfLife(){
+            if lifePoints < 0 {
+                lifePoints = 0
+                print("Rest of life Points for lazarus : \(lifePoints)")
+                
+    }
+}
 }
 struct Weapon{
     var name:String
@@ -83,7 +98,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    var winner = false
+    var turn = 0
     @IBAction func button(_ sender: Any) {
+       turn += 1
+        if winner {
+           
+        print("game Over ! ")
+        } else{
+            print("------- This is the turn Nº\(turn)--------")
+            dicerull()
+        print("==================== This is the end of turn Nº\(turn)===============")
+            
+        
+        }
         dicerull()
     }
     func dicerull(){
@@ -130,14 +158,17 @@ class ViewController: UIViewController {
             }
             if evlin.lifePoints <= dead {
                 print("\(lazarus.name) is a WINNER !!!")
+                winner = true
             }else if lazarus.lifePoints <= dead {
                 
                 print("\(evlin.name) is a WINNER !!!")
+                winner = true
             }
-        }
-        print("END OF THE GAME")
+       }
+            
+       
+       }
     }
-}
 
-    
-      
+
+
